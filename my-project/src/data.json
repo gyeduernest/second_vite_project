@@ -1,0 +1,160 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Toyota",
+      "name": "Toyota Camry",
+      "short_description": "A reliable and fuel-efficient midsize sedan",
+      "long_description": "The Toyota Camry is a popular midsize car known for its reliability, fuel efficiency, and comfort. It offers a variety of features, including a spacious interior, a smooth ride, and a long list of safety features.",
+      "price": 132000,
+      "state": "used"
+    },
+    {
+      "id": 2,
+      "brand": "Honda",
+      "name": "Honda Accord",
+      "short_description": "A well-rounded midsize sedan",
+      "long_description": "The Honda Accord is another popular midsize car known for its reliability, fuel efficiency, and value. It offers a spacious interior, a comfortable ride, and a long list of standard features.",
+      "price": 125000,
+      "state": "used"
+    },
+    {
+      "id": 3,
+      "brand": "Nissan",
+      "name": "Nissan Altima",
+      "short_description": "A stylish and affordable midsize sedan",
+      "long_description": "The Nissan Altima is a stylish and affordable midsize sedan that offers a variety of features, including a spacious interior, a comfortable ride, and a long list of safety features.",
+      "price": 118000,
+      "state": "used"
+    },
+    {
+      "id": 4,
+      "brand": "Hyundai",
+      "name": "Hyundai Sonata",
+      "short_description": "A value-packed midsize sedan",
+      "long_description": "The Hyundai Sonata is a value-packed midsize sedan that offers a lot of features for the price. It has a spacious interior, a comfortable ride, and a long list of standard features.",
+      "price": 111000,
+      "state": "used"
+    },
+    {
+      "id": 5,
+      "brand": "Kia",
+      "name": "Kia K5",
+      "short_description": "A stylish and sporty midsize sedan",
+      "long_description": "The Kia K5 is a stylish and sporty midsize sedan that offers a lot of features for the price. It has a spacious interior, a comfortable ride, and a long list of standard features.",
+      "price": 114000,
+      "state": "used"
+    },
+    {
+      "id": 6,
+      "brand": "Toyota",
+      "name": "Toyota Corolla",
+      "short_description": "A reliable and fuel-efficient compact car",
+      "long_description": "The Toyota Corolla is a popular compact car known for its reliability, fuel efficiency, and value. It offers a spacious interior, a comfortable ride, and a long list of safety features.",
+      "price": 107000,
+      "state": "used"
+    },
+    {
+      "id": 7,
+      "brand": "Honda",
+      "name": "Honda Civic",
+      "short_description": "A well-rounded compact car",
+      "long_description": "The Honda Civic is another popular compact car known for its reliability, fuel efficiency, and value. It offers a spacious interior, a comfortable ride, and a long list of standard features.",
+      "price": 100000,
+      "state": "used"
+    },
+    {
+      "id": 8,
+      "brand": "Nissan",
+      "name": "Nissan Sentra",
+      "short_description": "A stylish and affordable compact car",
+      "long_description": "The Nissan Sentra is a stylish and affordable compact car that offers a variety of features, including a spacious interior, a comfortable ride, and a long list of safety features.",
+      "price": 93000,
+      "state": "used"
+    },
+    {
+      "id": 9,
+      "brand": "Hyundai",
+      "name": "Hyundai Elantra",
+      "short_description": "A value-packed compact car",
+      "long_description": "The Hyundai Elantra is a value-packed compact car that offers a lot of features for the price. It has a spacious interior, a comfortable ride, and a long list of standard features.",
+      "price": 86000,
+      "state": "used"
+    }
+    {
+      "id": 11,
+      "brand": "Toyota",
+      "name": "Toyota RAV4",
+      "short_description": "A popular and reliable compact SUV",
+      "long_description": "The Toyota RAV4 is a popular and reliable compact SUV that offers a spacious interior, a comfortable ride, and a long list of safety features.",
+      "price": 145000,
+      "state": "used"
+    },
+    {
+      "id": 12,
+      "brand": "Honda",
+      "name": "Honda CR-V",
+      "short_description": "A well-rounded compact SUV",
+      "long_description": "The Honda CR-V is another popular compact SUV known for its reliability, fuel efficiency, and value. It offers a spacious interior, a comfortable ride, and a long list of standard features.",
+      "price": 138000,
+      "state": "used"
+    },
+    {
+      "id": 13,
+      "brand": "Nissan",
+      "name": "Nissan Rogue",
+      "short_description": "A stylish and affordable compact SUV",
+      "long_description": "The Nissan Rogue is a stylish and affordable compact SUV that offers a variety of features, including a spacious interior, a comfortable ride, and a long list of safety features.",
+      "price": 131000,
+      "state": "used"
+    },
+    {
+      "id": 14,
+      "brand": "Hyundai",
+      "name": "Hyundai Tucson",
+      "short_description": "A value-packed compact SUV",
+      "long_description": "The Hyundai Tucson is a value-packed compact SUV that offers a lot of features for the price. It has a spacious interior, a comfortable ride, and a long list of standard features.",
+      "price": 124000,
+      "state": "used"
+    },
+    {
+      "id": 15,
+      "brand": "Kia",
+      "name": "Kia Sportage",
+      "short_description": "A stylish and sporty compact SUV",
+      "long_description": "The Kia Sportage is a stylish and sporty compact SUV that offers a lot of features for the price. It has a spacious interior, a comfortable ride, and a long list of standard features.",
+      "price": 127000,
+      "state": "used"
+    },
+    {
+      "id": 16,
+      "brand": "Toyota",
+      "name": "Toyota Hilux",
+      "short_description": "A reliable and durable midsize pickup truck",
+      "long_description": "The Toyota Hilux is a popular midsize pickup truck known for its reliability, durability, and off-road capability. It offers a spacious interior, a comfortable ride, and a long list of safety features.",
+      "price": 158000,
+      "state": "used"
+    },
+    {
+      "id": 17,
+      "brand": "Isuzu",
+      "name": "Isuzu D-Max",
+      "short_description": "A durable and affordable midsize pickup truck",
+      "long_description": "The Isuzu D-Max is a durable and affordable midsize pickup truck that offers a variety of features, including a spacious interior, a comfortable ride, and a long list of safety features.",
+      "price": 151000,
+      "state": "used"
+    },
+    {
+      "id": 18,
+      "brand": "Nissan",
+      "name": "Nissan Navara",
+      "short_description": "A stylish and affordable midsize pickup truck",
+      "long_description": "The Nissan Navara is a stylish and affordable midsize pickup truck that offers a variety of features, including a spacious interior, a comfortable ride, and a long list of safety features.",
+      "price": 144000,
+      "state": "used"
+    }
+    
+
+  ]
+}
+    
