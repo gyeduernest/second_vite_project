@@ -29,19 +29,24 @@
 @layer components {
 
   h1{
-    @apply text-5xl font-extrabold dark:text-white mb-2
+    @apply text-6xl font-extrabold dark:text-white mb-2
   }
   h2{
-    @apply text-4xl font-extrabold dark:text-white mb-2
+    @apply text-5xl font-extrabold dark:text-white mb-2
   }
   h3{
-    @apply text-3xl font-extrabold dark:text-white mb-2
+    @apply text-4xl font-extrabold dark:text-white mb-2
   }
   h4{
-    @apply text-2xl font-extrabold dark:text-white mb-2
+    @apply text-3xl font-extrabold dark:text-white mb-2
   }
   p{
-    @apply text-gray-500 dark:text-gray-400
+    @apply text-slate-500 dark:text-gray-400 text-lg text-center  
   }
   
+}
+
+
+.Card{
+  @apply  w-80 rounded-md border-2 py-5 px-2
 }

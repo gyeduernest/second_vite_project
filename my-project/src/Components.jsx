@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "./Main_components/nested_comps";
 
 export const PrimaryBtn = ({text}) => {
   return ( 
@@ -33,5 +34,12 @@ export const TertiaryBtn = ({text}) => {
 
     );
 }
- 
 
+
+
+
+
+
+
+
+   

@@ -1,25 +1,26 @@
 import React from "react"
-import {PrimaryBtn, SecondaryBtn, TertiaryBtn } from "./Components"
 import NavBar from "./NavBar"
-import LogIn from "./Main_components/Login"
-import SignUp from "./Main_components/Register"
+import Home from "./pages/Home"
+import MyTestimony from "./Main_components/nested_comps"
+
 
 function App() {
 
   return (
     <>
-    <div className="w-screen  lg:p-20 bg-slate-100">
-      Buttons
-        <PrimaryBtn  text="get started" />
-        <SecondaryBtn  text="Secondary button"/>
-        <TertiaryBtn text="delete" />
-        Nav bar
-        <NavBar/>
+    <div className="lg:p-5 bg-slate-950">
+      <div className="fixed z-50 top-2">
+    <NavBar/>
+      </div>
 
-        form
-        <LogIn/>
-        <div className="mb-10"></div>
-        <SignUp/>
+      <Home/>
+
+      <MyTestimony/>
+      
+
+    
+      
+     
     </div>
     </>
   )
