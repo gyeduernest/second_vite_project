@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Main_components/nested_comps";
+import Card from "./Main_components/Testimonials";
 
 export const PrimaryBtn = ({text}) => {
   return ( 
