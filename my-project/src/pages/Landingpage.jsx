@@ -4,7 +4,6 @@ import MyTestimony from '../Main_components/Testimonials'
 import img3 from '../images/img3.jpg';
 import img4 from '../images/img4.jpg';
 import img5 from '../images/img5.png';
-import img6 from '../images/img6.png';
 import img7 from '../images/img7.png';
 import img1 from '../images/img1.jpg';
 
