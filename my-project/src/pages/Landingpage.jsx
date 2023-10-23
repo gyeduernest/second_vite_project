@@ -1,14 +1,18 @@
 import React from 'react'
 import { PrimaryBtn, SecondaryBtn } from '../Components'
 import MyTestimony from '../Main_components/Testimonials'
-import img3 from '../images/img3.jpg';
-import img4 from '../images/img4.jpg';
-import img5 from '../images/img5.png';
-import img7 from '../images/img7.png';
-import img1 from '../images/img1.jpg';
+import img3 from '../images/phone.png';
+import img4 from '../images/fly.png';
+import img5 from '../images/rocket.jpg';
+import img7 from '../images/sticky.png';
+import img1 from '../images/notepad.jpg';
+
 
 
 export default function Home() {
+
+
+
   return (
     
 <div className='py-20 lg:px-20 px-5'>
