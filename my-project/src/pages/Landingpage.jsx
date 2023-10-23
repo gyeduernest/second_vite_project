@@ -1,24 +1,28 @@
 import React from 'react'
 import { PrimaryBtn, SecondaryBtn } from '../Components'
 import MyTestimony from '../Main_components/Testimonials'
+import img3 from '../images/img3.jpg';
+import img4 from '../images/img4.jpg';
+import img5 from '../images/img5.png';
+import img6 from '../images/img6.png';
+import img7 from '../images/img7.png';
+import img1 from '../images/img1.jpg';
 
 
 export default function Home() {
   return (
     
 <div className='py-20 lg:px-20 px-5'>
-        <div className='lg:flex'>
-          <div className='lg:w-2/3 '>
+        <div className='mb-20 lg:flex lg:mb-10 lg:justify-center lg:items-center'>
+          <div className='lg:w-1/2 lg:mr-40'>
           <h2 className='text-white p-5 text-center'>Get to have Fun with this <span className='rounded-md px-2 py-0 leading-relaxed bg-purple-700 '>Platform</span>
           </h2>
         <p className='px-3 text-center mb-10'>The all in one Application is what you need to releae stress and make time very productive
         </p>
           </div>
           <div>
-      <a href="#" class="flex items-center">
-        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-    </a>
+            <img src={img3} alt="my hero" className='lg:w-96 lg:h-96'/>
+      
           </div>
 
         </div>
@@ -27,7 +31,7 @@ export default function Home() {
         <SecondaryBtn text="Get the App"/>
         </div>
         
-      <div className='px-5 text-center mt-10'>
+      <div className='px-5 text-center lg:mt-32 mt-10'>
          <h3 className='text-purple-700'>How to Get <span className='leading-relaxed px-2 rounded-md bg-white'> Started</span></h3>
       </div>
 
@@ -54,8 +58,7 @@ export default function Home() {
   <div className="lg:flex lg:grid-cols-4 ">
         <div className=" lg:mt-96 w-64 rounded-md p-2  h-64 mx-auto mb-10 border-2 border-purple-700 bg-slate-900 lg:mb-20">
           <div className='w-16 h-16 rounded-full border-2 border-purple-200 p-3'>
-          <span class="h-8 w-8 animate-pulse absolute inline-flex   rounded-full bg-white opacity-75"></span>
-
+          <img src={img4} alt="my hero" className='lg:w-10 lg:h-10 animate-bounce'/>
           </div>
           <div><h4 className='text-center text-white'>Many More</h4>
           <p className='text-center'>You can get access to more functions and games on this Platform</p></div>
@@ -64,18 +67,18 @@ export default function Home() {
     
         <div className="lg:mt-72 w-64 rounded-md p-2  h-64 mx-auto mb-10 border-2 border-purple-700 bg-slate-900">
           <div className='w-16 h-16 rounded-full border-2 border-purple-200 p-3'>
-          <span class="h-8 w-8 animate-pulse absolute inline-flex   rounded-full bg-yellow-400 opacity-75"></span>
-
+          <img src={img5} alt="my hero" className='lg:w-10 lg:h-10 animate-bounce'/>
+         
 
           </div>
           <div><h4 className='text-center text-white'>To do list</h4>
           <p className='text-center'>create a to do list and save it to help in task managment</p></div>
 
         </div>
-        <div className="lg:mt-40 w-64 rounded-md p-2  h-64 mx-auto mb-10 border-2 border-purple-700 bg-slate-900">
+        <div className="lg:mt-40 w-64 rounded-md p-2  h-64 mx-auto mb-10 border-2  border-purple-700 bg-slate-900">
           <div className='w-16 h-16 rounded-full border-2 border-purple-200 p-3'>
-          <span class="h-8 w-8 animate-pulse absolute inline-flex   rounded-full bg-red-400 opacity-75"></span>
-
+          <img src={img1} alt="my hero" className='lg:w-10 lg:h-10 animate-bounce'/>
+         
 
           </div>
           <div><h4 className='text-center text-white'>Income Tracker</h4>
@@ -83,9 +86,9 @@ export default function Home() {
 
         </div>
         <div className=" w-64 rounded-md p-2  h-64 mx-auto mb-10 border-2 border-purple-700 bg-slate-900">
-          <div className='w-16 h-16 rounded-full border-2 border-purple-200 p-3'>
-          <span class="h-8 w-8 animate-pulse absolute inline-flex   rounded-full bg-orange-400 opacity-75"></span>
-
+          <div className='w-16 h-16 rounded-full border-2 border-purple-200 p-3 '>
+          <img src={img7} alt="my hero" className='lg:w-10 lg:h-10 animate-bounce'/>
+         
 
           </div>
           <div><h4 className='text-center text-white '>Quote Genrator</h4>
