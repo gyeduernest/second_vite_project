@@ -16,9 +16,7 @@ function App() {
       <div className="fixed z-50 top-0 backdrop-blur-md lg:w-full w-full">
     <DesktopNavBar/>
       </div>
-        <div>
-          <MobileMenu/>
-        </div>
+        
 
         <Routes>
           <Route path="/" element={<Home/>}/>

@@ -19,7 +19,7 @@ export default function MyTestimony() {
 
     const Card = speech.map((props) => (
       <div key={props.id} className=" h-40  rounded-lg p-5 ">
-        <img src={Object.values(props.avatar)[0]} alt="" className='lg:w-40 lg:h-40' />
+        <img src={Object.values(props.avatar)[0]} alt="" className='lg:w-40 lg:h-40 w-20 h-20' />
         <div><h5 className='text-white'>{props.name}</h5></div>
         <div><p>{props.post}</p></div>
 

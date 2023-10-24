@@ -1,9 +1,15 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+
 export default function SignUp() {
+
+
   return (
-    <div className='mt-20 lg:px-40  flex justify-center items-center text-white'>
+    
+
+
+    <div className='mt-20 lg:px-40 mr-10 flex justify-center items-center text-white'>
       
             <div className='w-80 p-3 ml-10 md:w-96 md:p-8 rounded-lg border-2 shadow-lg hover:border-blue-400 hover:border-2 border-gray-300'>
               <div className=' text-white'>

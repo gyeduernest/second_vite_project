@@ -7,7 +7,7 @@ export default function LogIn() {
 
 
   return (
-    <div className='lg:px-40 lg:mt-20 flex justify-center items-center mt-10'>
+    <div className='lg:px-40 mr-10 lg:mt-20 flex justify-center items-center mt-10'>
           <div className='mb-40 w-80 p-3 ml-10 md:w-96 md:p-8 rounded-lg border-2 shadow-lg hover:border-blue-400 hover:border-2 border-gray-300 ' >
             <form action="" className='text-white'>
               <div className='w-80 mb-8'><h1> Log in</h1>
