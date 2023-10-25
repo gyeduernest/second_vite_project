@@ -21,11 +21,11 @@ export default function DesktopNavBar() {
         <NavLink to="/"><a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-gray-200 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a></NavLink>
       </li>
       <li>
-        <NavLink to="/"><a href="#" class="block py-2 pl-3 pr-4 text-white md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 bg-blue-700 rounded md:bg-transparent md:text-gray-200  md:dark:text-blue-500" aria-current="page">Set up</a></NavLink>
+        <NavLink to="/getstarted"><a href="#" class="block py-2 pl-3 pr-4 text-white md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 bg-blue-700 rounded md:bg-transparent md:text-gray-200  md:dark:text-blue-500" aria-current="page">Set up</a></NavLink>
         
       </li>
       <li>
-        <NavLink to="/"><a href="#" class="block py-2 pl-3 pr-4 text-white md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 bg-blue-700 rounded md:bg-transparent md:text-gray-200  md:dark:text-blue-500" aria-current="page">Benefits</a></NavLink>
+        <NavLink to="/features"><a href="#" class="block py-2 pl-3 pr-4 text-white md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 bg-blue-700 rounded md:bg-transparent md:text-gray-200  md:dark:text-blue-500" aria-current="page">Benefits</a></NavLink>
         
       </li>
       <li>

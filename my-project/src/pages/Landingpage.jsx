@@ -59,6 +59,8 @@ export default function Home() {
   </div>
 
   <div className="lg:flex lg:grid-cols-4 ">
+  <div><h1 className='text-white text-center leading-relaxed'>what you wil get to do</h1></div>
+
         <div className=" lg:mt-96 w-64 rounded-md p-2  h-64 mx-auto mb-10 border-2 border-purple-700 bg-slate-900 lg:mb-20">
           <div className='w-16 h-16 rounded-full border-2 border-purple-200 p-3'>
           <img src={img4} alt="my hero" className='lg:w-10 lg:h-10 animate-bounce'/>

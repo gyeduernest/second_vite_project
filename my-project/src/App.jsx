@@ -1,10 +1,12 @@
 import React from "react"
 import Home from "./pages/Landingpage"
-import MobileMenu from "./MobileNav" 
 import DesktopNavBar from "./DesktopNav"
 import { Routes, Route } from "react-router-dom"
 import SignUp from "./Main_components/Register"
 import LogIn from "./Main_components/Login"
+import Setup from "./pages/Getstarted"
+import MyFeatures from "./pages/Features"
+
 
 
 
@@ -20,10 +22,10 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home/>}/>
+          <Route path="/getstarted" element={<Setup/>}/>
+          <Route path="/features" element={<MyFeatures/>}/>
           <Route path="/register" element={<SignUp/>}/>
           <Route path="/Login" element={<LogIn/>}/>
-
-
         </Routes>
 
        

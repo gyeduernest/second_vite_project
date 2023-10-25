@@ -23,8 +23,8 @@ export default function  MobileMenu () {
       <nav ClassName="z-50 h-screen">
           <ul className='text-center text-white h-screen pl-32 pt-32 justify-center items-center'>
             <NavLink to="/"><li><h5 className="mb-10">Home</h5></li></NavLink>
-            <NavLink to="/"><li><h5 className="mb-10">Set up</h5></li></NavLink>
-            <NavLink to="/"><li><h5 className="mb-10">Benefits</h5></li></NavLink>
+            <NavLink to="/getstarted"><li><h5 className="mb-10">Set up</h5></li></NavLink>
+            <NavLink to="/benefits"><li><h5 className="mb-10">Benefits</h5></li></NavLink>
             <NavLink to="/"><li><h5 className="mb-10">Testimonials</h5></li></NavLink>
           </ul>
         </nav>
