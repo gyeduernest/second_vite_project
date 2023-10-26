@@ -1,9 +1,15 @@
 import React from 'react'
 import img3 from '../images/phone.png';
+import { SecondaryBtn } from '../Components';
+import {motion as m } from 'framer-motion';
 
 
-export default function Hero() {
+export default function Home() {
   return (
+    <m.div initial={{opacity:0}}
+           animate={{opacity:1}}
+           transition={{duration:0.75, ease:"easeInOut" }}
+    className='h-full bg-slate-900'>
     <div className='py-20 lg:px-20 px-5'>
       <div className='mb-20 lg:flex lg:mb-10 lg:justify-center lg:items-center'>
           <div className='lg:w-1/2 lg:mr-40'>
@@ -19,9 +25,11 @@ export default function Hero() {
 
         </div>
         
-        <div className='lg:justify-center lg:items-center lg:w-full lg:mx-auto lg:flex mx-auto flex justify-center items-center'>
+        <div className='lg:mb-10 lg:justify-center lg:items-center lg:w-full lg:mx-auto lg:flex mx-auto flex justify-center items-center'>
+          
         <SecondaryBtn text="Get the App"/>
         </div>
     </div>
+    </m.div>
   )
 }

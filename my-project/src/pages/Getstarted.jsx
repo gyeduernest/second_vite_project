@@ -1,8 +1,14 @@
 import React from 'react'
+import {motion as m} from 'framer-motion';
 
 export default function Setup() {
   return (
-    <div className='py-20 lg:px-20 px-5'>
+    
+    <m.div  initial={{y:"100%"}}
+             animate={{y:"0%"}}
+               transition={{duration:0.75 , ease: "easeInOut"}}
+
+     className='py-20 lg:px-20 px-5 h-full bg-slate-900'>
       <div className='px-5 text-center lg:mt-32 mt-10'>
          <h3 className='text-purple-700'>How to Get <span className='leading-relaxed px-2 rounded-md bg-white'> Started</span></h3>
       </div>
@@ -26,6 +32,6 @@ export default function Setup() {
         </div>
       
   </div>
-    </div>
+    </m.div>
   )
 }

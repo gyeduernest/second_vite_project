@@ -3,10 +3,15 @@ import img4 from '../images/fly.png';
 import img5 from '../images/rocket.jpg';
 import img7 from '../images/sticky.png';
 import img1 from '../images/notepad.jpg';
+import {motion as m} from 'framer-motion';
 
 export default function MyFeatures() {
   return (
-    <div className='py-20 lg:px-20 px-5'>
+    <m.div  initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:0.75 , ease: "easeInOut"}}
+    
+    className='py-20 lg:px-20 px-5 h-full bg-slate-900'>
       <div><h1 className='text-white text-center'>what you wil get to do</h1></div>
       <div className="lg:flex lg:grid-cols-4 lg:mt-40">
         <div className=" lg:mt-96 w-64 rounded-md p-2  h-64 mx-auto mb-10 border-2 border-purple-700 bg-slate-900 lg:mb-20">
@@ -52,6 +57,6 @@ export default function MyFeatures() {
 
   </div>
 
-    </div>
+    </m.div>
   )
 }

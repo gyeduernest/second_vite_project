@@ -1,9 +1,16 @@
 import React from 'react'
 import MobileNav from './MobileNav'
 import { NavLink } from 'react-router-dom'
+import {motion as m} from 'framer-motion';
+
 
 export default function DesktopNavBar() {
   return (
+    <m.div initial={{opacity:0}}
+            animate={{opacity:1}}
+            transition={{duration:0.75 , ease: "easeInOut"}}
+            
+    >
     <div>
       
 <nav class="bg-inherit   border-gray-200 dark:bg-gray-900 top-0">
@@ -25,19 +32,20 @@ export default function DesktopNavBar() {
         
       </li>
       <li>
-        <NavLink to="/features"><a href="#" class="block py-2 pl-3 pr-4 text-white md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 bg-blue-700 rounded md:bg-transparent md:text-gray-200  md:dark:text-blue-500" aria-current="page">Benefits</a></NavLink>
+        <NavLink to="/features"><a href="#" class="block py-2 pl-3 pr-4 text-white md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 bg-blue-700 rounded md:bg-transparent md:text-gray-200  md:dark:text-blue-500" aria-current="page">Features</a></NavLink>
         
       </li>
       <li>
-        <NavLink to="/"><a href="#" class="block py-2 pl-3 pr-4 text-white md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 bg-blue-700 rounded md:bg-transparent md:text-gray-200  md:dark:text-blue-500" aria-current="page">Testimonials</a></NavLink>
+        <NavLink to="/testimony"><a href="#" class="block py-2 pl-3 pr-4 text-white md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 bg-blue-700 rounded md:bg-transparent md:text-gray-200  md:dark:text-blue-500" aria-current="page">Testimonials</a></NavLink>
         
       </li>
     </ul>
-      <NavLink to="/register"><button type="button" className=" sm:block md:block lg:block hidden text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button></NavLink>
+      <NavLink to="/signup"><button type="button" className=" sm:block md:block lg:block hidden text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button></NavLink>
   </div>
   </div>
 </nav>
 
     </div>
+    </m.div>
   )
 }

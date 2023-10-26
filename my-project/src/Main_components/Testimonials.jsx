@@ -5,6 +5,8 @@ import avatar3 from'./avatar3.png';
 import avatar5 from'./avatar5.jpg';
 import avatar6 from'./avatar6.png';
 import avatar7 from'./avatar7.png';
+import {motion as m} from 'framer-motion';
+
 
 
 export default function MyTestimony() {
@@ -18,7 +20,8 @@ export default function MyTestimony() {
                 ];
 
     const Card = speech.map((props) => (
-      <div key={props.id} className=" h-40  rounded-lg p-5 ">
+      
+      <div key={props.id} className="  p-5 h-full bg-slate-900">
         <img src={Object.values(props.avatar)[0]} alt="" className='lg:w-40 lg:h-40 w-20 h-20' />
         <div><h5 className='text-white'>{props.name}</h5></div>
         <div><p>{props.post}</p></div>
@@ -30,9 +33,12 @@ export default function MyTestimony() {
     ));
   return (
 
-    <div className="lg:flex lg:px-20 grid-cols-3">
+    <m.div  initial={{opacity:0}}
+             animate={{opacity:1}}
+               transition={{duration:0.75 , ease: "easeInOut"}}
+     className="lg:flex lg:px-20 grid-cols-3 lg:h-full lg:mb-96 py-40">
       {Card}
-    </div>
+    </m.div>
     
       
 
